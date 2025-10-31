@@ -3,6 +3,6 @@ const code2 = (100 - 20) / 2;
 const code3 = 30 + (19 % 10); 
 const message = "The vault has been secured. The combination is: ";
 const codeA = code1 + "-" + code2 + "-" + code3;
+const codeB = `${code1}-${code2}-${code3}`;
 
-
-console.log(code1, code2, code3);
+console.log();
